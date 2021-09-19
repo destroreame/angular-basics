@@ -11,8 +11,4 @@ export class AppComponent {
   title = 'angular-basics';
 
   constructor(private service: TransferenciaService) {}
-
-  transferir($event: Transferencia) {
-    this.service.adicionar($event);
-  }
 }
